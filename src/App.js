@@ -5,7 +5,7 @@ import Greeting from './components/Greeting';
 function App() {
   return (
     <Routes>
-      <Route index element={<Greeting />}></Route>
+      <Route index element={<Greeting />} />
     </Routes>
   );
 }
